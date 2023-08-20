@@ -1,0 +1,70 @@
+
+    /* CSS Styling */
+html, body, h1, h2, h3, p, ol, ul, li, a{
+    padding: 0;
+    border: 0;
+    margin: 20px auto 20px 5PX;
+}
+
+.header {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.nav {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+.nav li{
+    display: inline;
+}
+.content{
+    width: auto;
+    margin: 30px  auto  0  auto;
+}
+.photos li img{
+    float: left;
+    padding-right: 20px;
+    width: 20px;
+    height: auto;
+}
+h2{
+    color: #7facaa;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.footer p{
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase
+}
+.main-content p{
+    line-height: 16px;
+}
+label, input{
+    display: block;
+}
+label{
+    margin-bottom: 10px
+}
+input[type=submit]{
+    width: 500px;
+    margin-bottom: 25px;
+}
+input[type=text]{
+    border: 4px double magenta;
+    font-size: medium;
+    padding: 7px;
+}
+input[type=checkbox], label[for=newsletter] {
+    display: inline;
+    }
